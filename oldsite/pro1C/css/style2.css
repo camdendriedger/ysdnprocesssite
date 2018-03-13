@@ -1,0 +1,146 @@
+@charset "utf-8";
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+    
+body, html {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.header {
+    width: 100%;
+    background-color: #222;
+    height: 65px;
+    margin: 0px;
+    padding-left: 10px;
+    padding-top: 20px;
+    position: fixed;
+    z-index: 1;
+    top: 0px;
+}
+
+.header-table {
+    list-style: none;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'open sans';
+}
+
+.header-table-item {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'open sans';
+    
+}
+
+.header-table-item-link {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'open sans';
+    padding: 22px;
+}
+
+.header-table-item-link:hover {
+    color: #222;
+    background-color: #888;
+}
+
+.banner {
+    width: 50%;
+    z-index: -1;
+    float: right;
+}
+
+.title{
+    margin-top: 66px;
+    width: 50%;
+    float: left;
+    height: 326px;
+    margin: 0px;
+    padding: 100px;
+    border-bottom: 2px solid #222;
+}
+
+.title-main {
+    width: 100%;
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Noto Serif', serif;
+    color: #222;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    
+}
+    
+.title-sub {
+    font-size: 1.3em;
+    font-family: 'open sans';
+    font-weight: 100;
+    color: #222;
+    text-align: center;
+    line-height: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.content {
+    width: 50%;
+    margin-right: auto;
+    font-family: 'open sans';
+    font-weight: 100;
+    padding: 50px 25px 50px 50px;
+    float: left;
+}
+
+.content-right {
+    width: 50%;
+    margin-left: auto;
+    font-family: 'open sans';
+    font-weight: 100;
+    padding: 50px 50px 50px 25px;
+    float: right;
+}
+
+.footer {
+    position: relative;
+    bottom: 0px;
+    height: 50px;
+    background-color: #222;
+    width: 100%;
+    color: #fff;
+    font-family: 'open sans';
+    font-weight: 100;
+    font-size: .8em;
+    padding-left: 20px;
+    padding-top: 5px;
+    display: inline-block;
+    float: left;
+    padding-right: 20px;
+}
+
+.footer-imgsource {
+    text-align: right;
+    text-decoration: none;
+    color: #fff;
+    float: right;
+    padding-top: 10px;
+}
+
+.footer-source {
+    color: #fff;
+    text-decoration: none;
+    position: absolute;
+    bottom: 18px;
+}
+
+
+

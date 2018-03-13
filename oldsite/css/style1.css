@@ -1,0 +1,142 @@
+@chartset "UTF-8"
+ 
+
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+    
+    
+ul { 
+list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    background-color: #ABCDAE; 
+    text-decoration: none;
+}
+
+
+li {
+}
+
+
+h1 {
+    font-family: roboto;
+    color: #fff;
+    background-color: #3a3a3a;
+    margin: 0;
+    padding: 10px;
+}
+
+
+body {
+    margin: 0;
+    padding:0; 
+}
+
+
+.navigation {
+    background-color: #6b6b6b;
+    float:left;
+    display: block;
+}
+
+
+.navigation-list {
+    background-color: inherit;
+    display: block;
+}
+
+
+.navigation-list-item {  
+    display: block;
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+    font-family: Roboto; 
+    font-weight: 700px;
+    float: left;
+    background-color: inherit;
+    padding: 10px;
+    /*
+    border-right: 2px solid #ffffff;
+    */
+    background: linear-gradient(to bottom, #3a3a3a, rgba(107,107,107,0));
+    background-size: 15px;
+    background-repeat: repeat-x;
+}
+
+.right-border {
+    border-right: 2px solid #ffffff;
+}
+
+/*
+
+.navigation-list-item:last-child {
+    border-right: 2px solid #6b6b6b;
+}
+
+*/
+
+.navigation-list-item-link {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.navigation-list-item:hover {
+    display: block;
+    text-decoration: none;
+    color: #6b6b6b;
+    background-color: #b7b7b7;
+    padding: 10px;
+}
+
+
+.navigation-list-item-link:hover {
+    text-decoration: none;
+    color: #6b6b6b;
+}
+
+
+.navbox {
+    width: 100%;    
+}
+
+
+
+.navigation-list-info {
+    display: block;
+    @import url('https://fonts.googleapis.com/css?family=Roboto');
+    font-family: Roboto; 
+    font-weight: 700px;
+    background-color: #6b6b6b;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+ 
+}
+
+
+.navigation-list-space {
+    display: block;
+    background color: #ffffff;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+}
+
+/*
+.gradient {
+    display: inline-block;
+    position: absolute;
+    top: 53px;
+    height: 16px;
+    width: 100%;
+    float: left;
+    background: linear-gradient(to bottom, #3a3a3a, rgba(107,107,107,0));
+    width: 100%
+}
+*/
+

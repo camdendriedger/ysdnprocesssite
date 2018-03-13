@@ -1,0 +1,221 @@
+@charset "UTF-8";
+
+/* parked FONT codes
+
+Roboto 100Thin 300Light 400Normal
+font-family: "Roboto", sans-serif;
+
+Vollkorn 400Normal 700Bold
+font-family: "Vollkorn", serif;
+
+font-family: "Raleway", sans-serif;
+
+end parked font codes */
+
+
+body {
+	background-image:url(../img/gray_jean.png);
+	background-repeat:repeat;
+	margin: 0px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 300;
+}
+
+
+.title {
+	font-family: "open sans", sans-serif;
+	font-weight: 300;
+	font-size: 3em;
+	margin: 0px;
+    padding-left: 35px;
+    padding-top:25px;
+    padding-bottom: 25px;
+    background-image: url("../img/backdrop-01.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+	}
+
+
+	
+h3 {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	}
+
+main {
+	margin-bottom: 20px;
+}
+	
+/* for centering framegrabs in posts - used in ex1 example */
+.centerthis {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+	
+.container {
+	background-color: #fff;
+	max-width: 960px;
+	min-width: 720px;
+	margin: 0px auto;
+	padding: 20px;
+}
+
+footer {
+	background: #6b8faa;
+	height: 40px;
+	margin: 0px -20px -20px -20px;
+	padding: 0px 20px; 
+	font-size:12px;
+    color: #fff;
+}
+
+footer a {
+	text-decoration:none;
+	color: inherit;
+}
+
+/* any item inside the footer with the class .col-right*/
+footer .col-right {
+	text-align: right;
+}
+
+.col-left {
+  float: left;
+  width: 60%;
+}
+
+#oldsite {
+    color: #333;
+    text-decoration: none;
+}
+#oldsite:hover {
+    color: #aaa;
+    text-decoration: none;
+}
+
+
+
+.col-right {
+	margin-left: auto;
+  	float: right;
+  	width: 38%;
+}
+
+.col-right-title {
+    text-align: center;
+}
+
+.piechart {
+    width: 50%;
+    height: 100px;
+    float: left;
+}
+
+.pielist-item1 {
+    list-style-image: url("../img/bullet1.svg")
+}
+
+.pielist-item2 {
+    list-style-image: url("../img/bullet2.svg")
+}
+
+.pielist-item3 {
+    list-style-image: url("../img/bullet3.svg")
+}
+
+.pielist-item4 {
+    list-style-image: url("../img/bullet4.svg")
+}
+.col-right-right {
+    float: right;
+    width: 50%;
+}
+
+
+
+.clearfix {
+	overflow:auto;
+}
+	
+#main_nav {
+	width:100%;
+	height:32px;
+}
+/* any ul inside the #main_nav*/
+#main_nav ul {
+	background:#6b8faa;
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+/* any a inside a ul inside the #main_nav*/
+#main_nav ul a
+{
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+}
+
+/* any li inside a ul inside the #main_nav*/
+#main_nav ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+/* any li inside a ul inside the #main_nav with a class of .current-menu-item*/
+#main_nav ul li.current-menu-item
+{
+	background:#ddd;
+}
+/* any li:hover psuedo class inside a ul inside the #main_nav*/
+#main_nav ul li:hover
+{
+	background:#ddd;
+}
+/* any ul that is inside a ul inside the #main_nav*/
+#main_nav ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	background:#eee;
+	padding:0
+}
+/* any li that is inside a ul that is inside a ul inside the #main_nav*/
+#main_nav ul ul li
+{
+	float:none;
+	width:150px;
+}
+/* any a that is inside a ul that is inside a ul inside the #main_nav*/
+#main_nav ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+/* any ul that is inside a ul that is inside a ul inside the #main_nav*/
+#main_nav ul ul ul
+{
+	top:0;
+	left:100%
+}
+/* all ul that hav a parent of li:hover psuedo class inside of a ul inside the #main_nav*/
+#main_nav ul li:hover > ul
+{
+	display:block
+}
+
+
+
+

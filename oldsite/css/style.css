@@ -1,0 +1,123 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*   {
+-webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;    
+  box-sizing: border-box;         
+}
+
+
+.container {
+
+	width: 900px;
+	height: 900px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin: 0px;
+}
+
+
+.box1 {
+
+	width: 300px;
+	height: 300px;
+	background-image:url(../img/Yosemite_0002_03.png);
+    float: right;
+}
+
+.box2 {
+
+	width: 300px; 
+	height: 300px;
+	background-image:url(../img/Yosemite_0000_01.png); 
+    float: left;
+}
+
+.box3 {
+
+	width: 300px; 
+	height: 300px;
+	background-image:url(../img/Yosemite_0001_02.png); 
+    float: left;
+}
+
+.box4 {
+
+	width: 300px; 
+	height: 300px;
+	background-image:url(../img/Yosemite_0003_04.png);  
+    float: left;
+}
+
+.box5 {
+
+	width: 300px; 
+	height: 300px;
+	background-image:url(../img/Yosemite_0005_06.png);  
+    float: right;
+}
+	
+.box6 { 
+
+	width: 300px; 
+	height: 300px;
+	background-image:url(../img/Yosemite_0004_05.png);  
+    float: left;
+}
+
+.box7 {
+
+	width: 300px; 
+	height: 300px;
+	background-image:url(../img/Yosemite_0008_09.png);
+    float: right;
+}
+
+.box8 { 
+
+	width: 300px; 
+	height: 300px;
+	background-image:url(../img/Yosemite_0007_08.png);  
+    float: right;
+}
+
+.box9 {
+
+	width: 300px; 
+	height: 300px;
+	background-image:url(../img/Yosemite_0006_07.png); 
+    float: left;
+}
+
+.brand {
+	font-size:36px;
+	width: 300px;
+	height: 300px;
+    color: #ffffff;
+    position: absolute;
+    top: 0px;
+    padding: 25px, 25px, 25px, 25px;
+    background-color: #000000;
+    padding: 25px; 
+    width: inherit;
+    height: 100px;
+
+    
+}
+
+.byline {
+	background-color:#E0E0E0;
+    position: fixed;
+    top: 25px;
+    left: 25px; 
+    padding-left: 25px;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
