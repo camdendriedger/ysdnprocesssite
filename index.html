@@ -6,109 +6,181 @@
 <!--load style sheet-->
 <link rel="stylesheet" href="css/style.css">
 <!--load fonts from google-->
-<link href="http://fonts.googleapis.com/css?family=Vollkorn:400,700" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=Roboto:400,100,300" rel="stylesheet" type="text/css">
-<link href="http://fonts.googleapis.com/css?family=Averia+Libre:400,700" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,700,800,900" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Teko:400,500" rel="stylesheet">
 
 </head>
 
 <body>
-	<!--contain the site-->
-    <div class="container">
-    	<!--header with nav-->
-        <header>
-        	<h1 class="title">Camden Driedger</h1>
-        	<!--navigation-->
-            <nav id="main_nav">
-            <!--below is a series of nested ul's that create the framework for the menu bar. Note that the nested ul's become the drop downs and that the ul's that are nested in the nested ul's become category style choices from the pulldown [all controlled by the css]-->
-                <ul>
-                <!--assign the menu item of the current page the class = current-menu-item so it acts as a cue to where you are on the site-->
-                  <li class="current-menu-item"><a href="#">Home</a></li>
-                  <li><a href="#">Exercises</a>
-                    <ul>
-                      <li><a href="ex/ex1/ex1.html">HTML</a></li>
-                      <li><a href="ex/ex2/ex2.html">CSS</a></li>
-                      <li><a href="ex/ex3/ex3.pdf">Site Anatomy</a></li>
-                      <li><a href="ex/ex4/ex4.html">Grids</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="#">Project One</a>
-                    <ul>
-                      <li><a href="p1/layout/pr1layout.pdf">Layout</a></li>
-                      <li><a href="p1/text/about.html">Text</a></li>
-                      <li><a href="p1/final/about2.html">Final</a></li>
-                      <li><a href="p1/process/">Process</a>
-                        <ul>
-                          <li><a href="#">Digital</a>
-                            <ul>
-                              <li><a href="#">Colour Picker</a></li>
-                              <li><a href="#">Inspiration</a></li>
-                            </ul>
-                          </li>
-                          <li><a href="#">PDF</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  <li><a href="#">Project Two</a>
-                    <ul>
-                      <li><a href="p2/proposal/p2A.pdf">Proposal</a></li>
-                      <li><a href="#">Wireframes</a></li>
-                      <li><a href="#">Style Tiles & Visual Comps</a></li>
-                      <li><a href="#">Prototyping</a></li>
-                      <li><a href="#">Final</a></li>
-                      <li><a href="#">Process</a>
-                        <ul>
-                          <li><a href="#">PDF</a></li>
-                        </ul>
-                      </li>
-                    </ul>
-                  </li>
-                  </ul>
-            </nav>
-            <!--end navigation-->
-        </header>
-    	<!--end header-->
-    	<!--main page contenet //// the clearfix class makes the footer respect the verticle space of the content of this div. if it was not here the footer would come up and nestle under the menu because the  two columns are our of the flow-->
-        <main  class="clearfix">
-        <!--article is content ///  this one is styled with col-left-->
-            <article class="col-left">
-                <h3>Welcome</h3>
-                <p>This is my site where I will showcase all of my work in Interactivity 1. Some major changes were made to this site after week 6, when a more thorough knowledge of css was gained, and more importantly, when this new template was released. This site is a modification of the template given to us during week 6.</p>
-                <p></p>
-                <p>If you care to take a look at my process website prior to the update, then look no further! <a id="oldsite" href="oldsite/index.html">Click here.</a> Mind you, it is a little finnicky, as to be expected. I guess it's all part of the learning process.</p>
-                <p></p>
-                <p>Enjoy!</p>
 
-            </article>
-            <!--article is content ///  this one is styled with col-right-->
-            <article class="col-right">
-                <h4 class="col-right-title">How I feel about interactivity:</h4>
-                <div class="piechart">
-                    <img src="img/pie-01.svg">
-                </div>
-                <div class="col-right-right">
-                    <ul class="pielist">
-                    <li class="pielist-item1">Oh, this makes sense.</li>
-                    <li class="pielist-item2">I need a snack.</li>
-                    <li class="pielist-item3">I don't know how it worked, but it did.</li>
-                    <li class="pielist-item4">what.</li>
-                    </ul>
-                </div>
-            </article>
-        </main>
-        <!--main page contenet-->
-    	<!--footer-->
-        <footer>
-            <div class="col-left">
-             	<p><a href="mailto:studentemail">driedgec@sheridancollege.ca</a></p>
-            </div>
-            <div class="col-right">
-            	<p>&#169 Camden Driedger</p>
-            </div>
-        </footer>
-        <!--end footer-->
-    </div>
+<div class="top">
+
+	<div class="top-title">
+		<div class="top-title-text">
+			Camden Driedger
+		</div>
+		<div class="top-subtitle">
+			<div class="top-subtitle-text">
+				Process Site - YSDN 1006
+			</div>
+		</div>
+	</div>
+
+</div>
+
+
+
+
+<div class="main">
+
+
+	<div class="exercises">
+		<div class="title">
+			<p class="title-text">
+				Exercises
+			</p>
+		</div>
+
+		<div class="main-list" id="list-exercise">
+
+			<a href="ex/ex1/ex1.html" class="main-list-link"><div class="list-item">
+				HTML
+			</div></a>
+
+			<a href="ex/ex2/ex2.html" class="main-list-link"><div class="list-item">
+				CSS
+			</div></a>
+
+			<a href="ex/ex3/ex3.pdf" class="main-list-link"><div class="list-item">
+				Site Anatomy
+			</div></a>
+
+			<a href="fffff.html" class="main-list-link"><div class="list-item">
+				Grids
+			</div></a>
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<div class="inclass">
+
+		<div class="title">
+			<p class="title-text">
+				In Class
+			</p>
+		</div>
+
+		<div class="main-list" id="list-inclass">
+
+			<a href="inclass/a/rollover.html" class="main-list-link"><div class="list-item">
+				CSS Rollover
+			</div></a>
+
+			<a href="fffff.html" class="main-list-link"><div class="list-item">
+				Site Map Exercise
+			</div></a>
+
+		</div>
+	</div>
+
+
+
+
+
+	<div class="pro1">
+
+		<div class="title">
+			<p class="title-text">
+				Project One
+			</p>
+		</div>
+
+		<div class="main-list" id="list-pro1">
+
+		<a href="p1/layout/pr1layout.pdf" class="main-list-link"><div class="list-item">
+			Layout
+		</div></a>
+
+		<a href="p1/text/about.html" class="main-list-link"><div class="list-item">
+			Text
+		</div></a>
+
+		<a href="p1/final/about2.html" class="main-list-link"><div class="list-item">
+			Final
+		</div></a>
+
+		<a href="fffff.html" class="main-list-link"><div class="list-item">
+			Process
+		</div></a>
+
+	</div>
+
+	</div>
+
+
+
+
+
+	<div class="pro2">
+
+		<div class="title">
+			<p class="title-text">
+				Project 2
+			</p>
+		</div>
+
+		<div class="main-list" id="list-pro2">
+
+		<a href="p2/p2a/p2a.pdf" class="main-list-link"><div class="list-item">
+			Proposal
+		</div></a>
+
+		<a href="p2/p2b/p2b.pdf" class="main-list-link"><div class="list-item">
+			Wireframes
+		</div></a>
+
+		<a href="fffff.html" class="main-list-link"><div class="list-item">
+			Style Tiles &amp; Visual Comp
+		</div></a>
+
+		<a href="fffff.html" class="main-list-link"><div class="list-item">
+			Prototyping
+		</div></a>
+
+		<a href="https://camdendriedger.github.io/camdendriedgerdesign" class="main-list-link"><div class="list-item">
+			Final
+		</div></a>
+
+		<a href="fffff.html" class="main-list-link"><div class="list-item">
+			Process
+		</div></a>
+
+	</div>
+
+
+
+</div>
+</div>
+
+
+<div class="fill">
+<div class="fill-content">
+
+</div>
+</div>
+
+
+
+
+
+
 </body>
+
 </html>
